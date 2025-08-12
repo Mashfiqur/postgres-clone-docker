@@ -69,6 +69,14 @@ The script will:
 
 ---
 
+---
+## Run through Docker
+```
+docker run --rm   --network=host   -v $(pwd):/app   -w /app   postgres:17-alpine   sh -c "apk add --no-cache bash && bash clone-db.sh"
+```
+
+---
+
 ## SSL Connections
 
 * Set `SOURCE_POSTGRES_SSL=true` if your source DB requires SSL.
