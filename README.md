@@ -125,8 +125,3 @@ DESTINATION_POSTGRES_SSL=true
 * No local PostgreSQL installation is required — everything runs via Docker.
 
 ---
-
-```
-
-If you want, I can now also **add the matching `clone-db.sh` script** so this README is fully functional. Would you like me to do that next?
-```
